@@ -1,0 +1,432 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: #73787e;
+    background-color: #f9f8f6;
+    margin: 0;padding: 0;
+
+}
+
+.container{
+    width: 100%;
+    display: flex;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+#logo{
+    width: 20%;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+#logo img{
+    width: 30%;
+}
+#navbar{
+    float: left;
+    width: 75%;
+    margin-top: 25px;
+    list-style-type:none;
+    display: flex;
+}
+#navbar li{
+    display: inline;
+    margin: 0px 5px;
+    padding-left: 40px;
+}
+#navbar li a{
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #da7400;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+#navbar li:last-child a{
+    margin-left: 20%;
+    border: solid #da7400;
+    border-radius: 14px;
+}
+#navbar li a:hover{
+    background-color: rgba(16, 0, 105, 0.753);
+    border-radius:14px;
+
+    
+}
+.content{
+    width: 100%;
+    height: 400px;
+
+}
+.content1 img{
+    max-width: 100%;
+}
+.content1 h2 {
+    position: absolute;
+    top:300px;
+    left: 420px;
+    text-align: center;
+    color: white;
+    font-size: 300%;
+}
+.content1 p {
+    position: absolute;
+    top:400px;
+    left: 25%;
+    color: #fff;
+    font-size:150%;
+    font-family: 'Dancing Script', cursive;
+}
+#rezervimet{
+    position: absolute;
+    top: 550px;
+    left: 25%;
+}
+.box{
+    width: 50%;
+    height: auto;
+    margin: 10px 5px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+#rezervimet legend{
+    color:  white;
+    text-align: center;
+    width: 50%;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-left: 16%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#rezervimet label{
+    height:35px;
+    width: 100%;
+    text-align:left;
+    color: white;
+}
+#rezervimet input[type="submit"]{
+    width:50%;
+    height: 40px;
+    margin-top:10px;
+    background-color: #da7400;
+    border:1px solid rgba(13, 1, 77, 0.849);
+    border-radius:50px;
+    padding-top: 0px;
+    margin-left: 140px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+#rezervimet input[type="submit"]:hover{
+    background-color: rgba(16, 0, 105, 0.753);
+    color: #e3e5e5;
+}
+#rezervimet input[type="text"],input[type="date"]{
+    border:1px solid #da7400;
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+    background-color: rgba(16, 0, 105, 0.753);
+}
+#rezervimet ::placeholder{
+    color: white;
+}
+.destination img{
+    width: 280px;
+    height: 280px;
+    border-radius: 40px;
+    margin-left: 40px;
+    box-shadow: 8px 8px rgba(16, 0, 105, 0.301);
+
+}
+.destination h1{
+    text-align: center;
+    color: #da7400;
+    font-family: 'Golos Text', sans-serif;
+}
+.destination img:hover{
+    box-shadow: 10px 10px #da7400;
+    transition: 0.7s;
+    
+}
+.destination{
+    width: 100%;
+    margin-top: 30px;
+}
+.ofertattona{
+    margin-left: 10%;
+    
+}
+.ofertattona h1{
+    color: #da7400;
+    font-size: 40px;
+    font-family: 'Libre Baskerville', serif;
+
+}
+.ofertaepare {
+     width: 100%
+     height: 200px;
+}
+.ofertaepare img {
+    width: 100%;
+}
+.ofertateperfshira h1{
+    text-align: center;
+    color: #da7400;
+    font-size: 30px;
+}
+.ofertateperfshira h4{
+    color:rgba(16, 0, 105, 0.753);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Climate Crisis', cursive;
+}
+.rates4 img{
+    align-items: center;
+    width: 50%;
+    padding-left:80px;
+}
+.ofertaepare{
+    border:  1px solid rgba(177, 176, 176, 0.692);
+    width: 350px;
+    height: 400px;
+}
+.ofertaepare img{
+max-width: 100%;
+}
+.ofertaepare p{
+    position: absolute;
+    padding-left: 0%;
+    font-size: 25px;
+    padding-top: 180px;
+    color:rgba(255, 255, 255, 0.753);
+}
+.ofertaedyte {
+    width: 100%
+    height: 200px;
+}
+.ofertaedyte img {
+   width: 100%;
+}
+.ofertaedyte{
+    border:  1px solid rgba(177, 176, 176, 0.692);
+    width: 350px;
+    height: 400px;
+    margin-left: 30px;
+}
+.ofertaedyte img{
+max-width: 100%;
+}
+.ofertaedyte p{
+    position: absolute;
+    padding-left: 0%;
+    font-size: 25px;
+    padding-top: 180px;
+    color:rgba(255, 255, 255, 0.753);
+}
+.rates5 img{
+    align-items: center;
+    width: 50%;
+    padding-left:80px;
+}
+.ofertaetrete {
+    width: 100%
+    height: 200px;
+}
+.ofertaetrete img {
+   width: 100%;
+}
+.ofertaetrete{
+    border:  1px solid rgba(177, 176, 176, 0.692);
+    width: 350px;
+    height: 400px;
+    margin-left: 30px;
+}
+.ofertaetrete img{
+max-width: 100%;
+}
+.ofertaetrete p{
+    position: absolute;
+    padding-left: 0%;
+    font-size: 25px;
+    padding-top: 180px;
+    color:rgba(255, 255, 255, 0.753);
+}
+.rates2 img{
+    align-items: center;
+    width: 50%;
+    padding-left:80px;
+}
+.ofertateperfshira{
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+.ofertaepare:hover{
+        border-color: rgba(16, 0, 105, 0.301); 
+        box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3); 
+        
+}
+.ofertaedyte:hover{
+    border-color: rgba(16, 0, 105, 0.301); 
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3); 
+    
+}
+.ofertaetrete:hover{
+    border-color: rgba(16, 0, 105, 0.301); 
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3); 
+    
+}
+.gjithqkaqeduhet video{
+    width:100%;
+    
+}
+.tripexp{
+    background-color: rgb(13, 0, 83);
+    color: aliceblue;
+    width: 100%;
+}
+.tripexp p{
+  padding: 5px 200px;
+  text-align: center;
+  font-size: 20px;
+}
+.tripexp h1{
+    padding-top: 50px;
+    font-family: 400px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+}
+.tripsinfo{
+    width: 100%;
+    display: flex;
+}
+.trips1 h5{
+    width: 50%;
+    margin-left: 335px;
+    font-size: 25px;
+    font-family: 'Great Vibes', cursive;
+    padding-top: 5px;
+    
+}
+.trips1 p{
+    margin-left: 120px;
+    padding-top: 0;
+
+}
+.trips2 h5{
+    width: 50%;
+    margin-left: 240px;
+    font-size: 25px;
+    font-family: 'Great Vibes', cursive;
+    padding-bottom: 0;
+
+}
+.trips2 p{
+    margin-left: 5px;
+    padding-top: 0;
+
+}
+.kontaktoni legend{
+    margin-left: 35%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Six Caps', sans-serif;
+    color:rgb(13, 0, 83)
+
+}
+.kontaktoni label{
+    width: 100%;
+    margin-left: 38%;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+.kontaktoni input[type="text"],input[type="email"],input[type="number"]{
+    width: 20%;
+    margin-left: 38%;
+    
+}
+.kontaktoni input[type="submit"]{
+    width: 20%;
+    margin-left: 38%;
+    margin-top: 20px;
+    color: white;
+    background-color:rgba(12, 0, 83, 0.521);
+    border-radius: 40px;
+    padding: 10px 0px;
+}
+.kontaktoni input[type="submit"]:hover{
+    background-color: rgba(13, 0, 83);
+}
+#company{
+    background-color: rgba(12, 0, 83, 0.521);
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.companyinfo{
+    width: 50%;
+}
+.companyinfo img{
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+.companyinfo h1{
+   color: whitesmoke;
+   padding-top: 100px;
+   padding-left: 150px;
+   padding-bottom: 20px;
+}
+.kontakti {
+    display: flex;
+}
+.kontakti img{
+    width: 50px;
+    height: 50px;
+}
+.kontakti p{
+    color: whitesmoke;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.vendi{
+    width: 50%;
+    padding-left: 60px;
+}
+.vendi h1{
+    color: whitesmoke;
+    padding-left: 80px;
+}
+.locationi img{
+    width: 50px;
+    height: 50px;
+}
+.locationi p{
+    color: whitesmoke;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.locationi{
+    display: flex;
+}
+.orari img{
+    width: 50px;
+    height: 50px;
+}
+.orari p{
+    color: whitesmoke;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.orari{
+    display: flex;
+}
